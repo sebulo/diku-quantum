@@ -30,24 +30,6 @@ title: Michael Kastoryano Group
         {% endfor %}
       </ul>
     </div>
-
-    <aside class="hero-panel">
-      <div class="hero-card">
-        <p class="panel-label">Group Lead</p>
-        <div class="lead-card">
-          <img
-            src="{{ site.data.group.lead.image | relative_url }}"
-            alt="Portrait of {{ site.data.group.lead.name }}"
-          >
-          <div>
-            <h2>{{ site.data.group.lead.name }}</h2>
-            <p>{{ site.data.group.lead.role }}</p>
-            <a href="mailto:{{ site.data.group.lead.email }}">{{ site.data.group.lead.email }}</a>
-          </div>
-        </div>
-        <p class="panel-text">{{ site.data.group.lead.bio }}</p>
-      </div>
-    </aside>
   </div>
 </header>
 
@@ -183,22 +165,12 @@ title: Michael Kastoryano Group
         {% for repo in site.data.repositories %}
         <article class="card resource-card">
           <div class="resource-header">
-            {% if repo.category %}
-            <p class="resource-year">{{ repo.category }}</p>
-            {% endif %}
             <h3>{{ repo.name }}</h3>
           </div>
           {% if repo.maintainers %}
           <p class="resource-meta">{{ repo.maintainers }}</p>
           {% endif %}
           <p>{{ repo.summary }}</p>
-          {% if repo.topics %}
-          <div class="chip-row">
-            {% for topic in repo.topics %}
-            <span>{{ topic }}</span>
-            {% endfor %}
-          </div>
-          {% endif %}
           <div class="card-actions">
             {% if repo.link %}
             <a class="text-link" href="{{ repo.link }}">Repository</a>
@@ -210,6 +182,13 @@ title: Michael Kastoryano Group
             <a class="text-link" href="{{ repo.demo }}">Demo</a>
             {% endif %}
           </div>
+          {% if repo.topics %}
+          <div class="chip-row">
+            {% for topic in repo.topics %}
+            <span>{{ topic }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
         </article>
         {% endfor %}
       </div>

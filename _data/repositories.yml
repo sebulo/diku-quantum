@@ -1,11 +1,9 @@
-- name: Add repository
-  category: Research software
-  maintainers: Add maintainer names
-  summary: >
-    Add a short description of the repository, what it implements, and why it
-    is useful for the group.
-  link: https://github.com/username/repository
-  paper: https://arxiv.org/abs/example
-  topics:
-    - Tensor networks
-    - Quantum algorithms
+  - name: Project Name
+    maintainers: Person One, Person Two
+    summary: Short explanation of what the repository contains.
+    link: https://github.com/example/project
+    paper: https://arxiv.org/abs/...
+    demo: https://example.com
+    topics:
+      - Tensor networks
+      - Machine learning

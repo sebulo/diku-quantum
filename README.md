@@ -1,4 +1,4 @@
-# Michael Kastoryano Group Website
+# Quantum Algorithms and Tensor Analysis Group Website
 
 This site uses Jekyll. In practice, that means most content updates happen in
 the files inside `_data/`, and the homepage reads from those files

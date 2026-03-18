@@ -28,6 +28,7 @@
   file: presentations/sebastian/Sebastian_Research_Talk.pdf
   file_label: Slides PDF
 
+
 - title: TensorGRaD - Tensor Gradient Robust Decomposition for Memory-Efficient Neural Operator Training
   speakers: Sebastian Loeschcke
   event: SAINTS Lab Workshop 2026

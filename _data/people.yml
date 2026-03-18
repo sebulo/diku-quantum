@@ -1,15 +1,11 @@
-# - name: Michael James Kastoryano
-#   role: Associate Professor
-#   email: mkastoryano@gmail.com
-#   image: images/teampic/mjk_pic.jpg
-#   summary: >
-#     Works on quantum algorithms and tensor networks with applications in
-#     physics, machine learning, finance, and engineering, with earlier work on
-#     quantum Markov chain mixing and dissipative state preparation.
-#   interests:
-#     - Quantum algorithms
-#     - Tensor networks
-#     - Fault tolerance
+- name: Michael James Kastoryano
+  role: Associate Professor
+  email: mkastoryano@gmail.com
+  image: images/teampic/mjk_pic.jpg
+  summary: >
+    Works on quantum algorithms and tensor networks with applications in
+    physics, machine learning, finance, and engineering, with earlier work on
+    quantum Markov chain mixing and dissipative state preparation.
 
 - name: Lasse Bjorn Kristensen
   role: Postdoc
