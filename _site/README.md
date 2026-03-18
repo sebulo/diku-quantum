@@ -20,6 +20,9 @@ do not need to edit the HTML.
   summary.
 - `_data/presentations.yml`: talks and presentation materials
   Use this for slide decks, PDFs, posters, videos, and seminar links.
+- `_data/repositories.yml`: code repositories
+  Use this for GitHub repositories, software projects, and code releases tied
+  to the group.
 - `_data/alumni.yml`: previous group members
   Use this for former members and where they are now.
 - `index.html`: homepage template
@@ -109,6 +112,33 @@ This section is for:
   file: presentations/talk-slides.pdf
   file_label: Slides PDF
   video: https://...
+```
+
+### Add a repository
+
+Add one new block to `_data/repositories.yml`.
+
+Each repository entry can include:
+- `name`: repository or project name
+- `category`: short label such as `Research software` or `Library`
+- `maintainers`: person or people responsible
+- `summary`: 1-2 sentence description
+- `link`: main repository link
+- `paper`: optional paper link
+- `demo`: optional demo or project page
+- `topics`: short tags shown on the site
+
+```yml
+- name: Project Name
+  category: Research software
+  maintainers: Person One, Person Two
+  summary: Short explanation of what the repository contains.
+  link: https://github.com/example/project
+  paper: https://arxiv.org/abs/...
+  demo: https://example.com
+  topics:
+    - Tensor networks
+    - Machine learning
 ```
 
 ### Add an alumnus
