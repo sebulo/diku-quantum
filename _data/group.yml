@@ -1,0 +1,56 @@
+name: Michael Kastoryano Group
+
+hero:
+  kicker: Department of Computer Science, University of Copenhagen
+  title: Quantum algorithms and tensor networks for science and industry
+  summary: >
+    We study quantum algorithms and tensor network methods with applications in
+    physics, machine learning, finance, and engineering. The group builds
+    mathematically grounded tools that connect quantum information, numerical
+    methods, and practical computational problems.
+
+lead:
+  name: Michael James Kastoryano
+  role: Associate Professor of Computer Science
+  email: mkastoryano@gmail.com
+  image: images/teampic/mjk_pic.jpg
+  bio: >
+    Michael Kastoryano is an Associate Professor at the Department of Computer
+    Science at the University of Copenhagen and an Amazon Visiting Academic
+    working with the AWS Center for Quantum Computing. His CV is available on
+    request, and he currently has PhD and postdoc openings in the group.
+
+research_areas:
+  - Quantum algorithms
+  - Tensor networks
+  - Physics
+  - Machine learning
+  - Finance
+  - Engineering
+
+research_topics:
+  - title: Quantum algorithms
+    description: >
+      Algorithms for quantum simulation, Gibbs sampling, and complexity-theoretic
+      questions relevant to near-term and long-term quantum technologies.
+  - title: Tensor networks
+    description: >
+      Efficient classical representations for high-dimensional systems, with
+      emphasis on matrix product states, functional tensor methods, and
+      quantum-inspired numerical algorithms.
+  - title: Applied computation
+    description: >
+      Methods targeted at physical modeling, machine learning, finance, and
+      engineering problems where structure, uncertainty, and scale matter.
+
+contact:
+  heading: Collaborations, students, and visitors
+  body: >
+    The group is interested in collaborations across theory, algorithms, and
+    application domains. The Department of Computer Science is part of the
+    Faculty of Science at the University of Copenhagen, and the group is based
+    in the Machine Learning section. Students interested in joining or learning
+    more about the group's work are encouraged to reach out to Michael, PhD
+    students, or postdocs depending on their research interests.
+  email: mkastoryano@gmail.com
+  location: Universitetsparken 1, 2100 København, Department of Computer Science, University of Copenhagen

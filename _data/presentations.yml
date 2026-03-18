@@ -1,0 +1,41 @@
+# - title: Group Presentation Repository
+#   speakers: Michael Kastoryano Group
+#   event: Internal / external talks
+#   year: 2026
+#   summary: >
+#     Use this section as the central archive for seminar decks, workshop slides,
+#     lecture notes, poster PDFs, and recorded talks.
+#   file: presentations/README.md
+#   file_label: Repository guide
+
+- title: Low-Rank Adapters for Quantized Pre-Training 
+  speakers: Sebastian Loeschcke
+  event: WANT@ICML best paper presentation
+  year: 2025
+  summary: >
+    Slides for the best paper presentation at the WANT@ICML workshop on LoQT
+    and low-rank adapters for quantized pre-training.
+  file: presentations/sebastian/LoQT_presentation.pdf
+  file_label: Slides PDF
+
+- title: Sebastian Loeschcke - Research Talk
+  speakers: Sebastian Loeschcke
+  event: Pioneer Centre for AI
+  year: 2026
+  summary: >
+    Research talk at the Pioneer Centre for AI covering Sebastian Loeschcke's
+    work on machine learning, low-rank methods, and quantization.
+  file: presentations/sebastian/Sebastian_Research_Talk.pdf
+  file_label: Slides PDF
+
+- title: TensorGRaD - Tensor Gradient Robust Decomposition for Memory-Efficient Neural Operator Training
+  speakers: Sebastian Loeschcke
+  event: SAINTS Lab Workshop 2026
+  year: 2026
+  summary: >
+    Presentation at the SAINTS Lab Workshop 2026 on TensorGRaD and
+    memory-efficient training of neural operators using tensor gradient
+    decomposition.
+  file: presentations/sebastian/TensorGrad_presentation.pdf
+  file_label: Slides PDF
+  external: https://saintslab.github.io/workshop2026/

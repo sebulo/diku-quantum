@@ -1,0 +1,433 @@
+:root {
+  --bg: #f4f0e8;
+  --surface: rgba(255, 252, 246, 0.82);
+  --surface-strong: #fffdf9;
+  --surface-alt: #e8ddd1;
+  --text: #1c1b1a;
+  --muted: #5e584f;
+  --line: rgba(28, 27, 26, 0.12);
+  --accent: #0d6b6b;
+  --accent-2: #cb6d43;
+  --shadow: 0 20px 60px rgba(39, 32, 20, 0.12);
+  --radius: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(203, 109, 67, 0.16), transparent 30%),
+    radial-gradient(circle at top right, rgba(13, 107, 107, 0.18), transparent 28%),
+    linear-gradient(180deg, #f7f2e9 0%, var(--bg) 100%);
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.shell {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 3rem;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(135deg, rgba(13, 107, 107, 0.08), rgba(255, 255, 255, 0)),
+    url("../images/respic/layers_real.jpg") center/cover;
+  opacity: 0.18;
+  transform: scale(1.04);
+}
+
+.nav,
+.hero-grid,
+.section,
+.section-alt {
+  position: relative;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 0;
+}
+
+.brand {
+  font-family: "Fraunces", serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(320px, 0.8fr);
+  gap: 2rem;
+  align-items: end;
+  padding: 3rem 0 1rem;
+}
+
+.eyebrow,
+.panel-label,
+.card-index,
+.resource-year,
+.alumni-label {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.76rem;
+  color: var(--accent);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+h1 {
+  max-width: 11ch;
+  font-size: clamp(3.4rem, 8vw, 6.2rem);
+  margin: 0.4rem 0 1rem;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.lede {
+  max-width: 62ch;
+  font-size: 1.1rem;
+  color: var(--muted);
+}
+
+.hero-actions,
+.card-actions,
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.98rem;
+  letter-spacing: 0.01em;
+  box-shadow: 0 10px 30px rgba(28, 27, 26, 0.12);
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.button-primary {
+  background: linear-gradient(135deg, #111111, #2c3b3b);
+  color: #fff;
+}
+
+.button-secondary {
+  border: 1px solid rgba(13, 107, 107, 0.22);
+  background: rgba(13, 107, 107, 0.12);
+  color: var(--text);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 34px rgba(28, 27, 26, 0.16);
+}
+
+.hero-tags,
+.person-meta,
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  list-style: none;
+}
+
+.hero-tags li,
+.chip-row span {
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(28, 27, 26, 0.08);
+  backdrop-filter: blur(10px);
+  font-size: 0.9rem;
+}
+
+.hero-panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.hero-card,
+.card,
+.contact-panel {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(16px);
+}
+
+.hero-card {
+  padding: 1.4rem;
+}
+
+.lead-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1rem;
+  align-items: start;
+  margin: 0.75rem 0;
+}
+
+.lead-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.panel-text {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.stats-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.stats-card strong {
+  display: block;
+  font-size: 1.8rem;
+  font-family: "Fraunces", serif;
+}
+
+.stats-card span {
+  color: var(--muted);
+}
+
+.section,
+.section-alt {
+  padding: 4rem 0;
+}
+
+.section-alt {
+  background: linear-gradient(180deg, rgba(232, 221, 209, 0.42), rgba(232, 221, 209, 0.22));
+}
+
+.section-heading {
+  margin-bottom: 1.8rem;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: end;
+}
+
+.section-note {
+  max-width: 30ch;
+  color: var(--muted);
+}
+
+.research-grid,
+.people-grid,
+.publication-list,
+.resource-grid,
+.alumni-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.research-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.people-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.publication-list,
+.resource-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.alumni-list {
+  grid-template-columns: 1fr;
+}
+
+.card {
+  padding: 1.4rem;
+}
+
+.research-card p:last-child,
+.publication-card p:last-child,
+.resource-card p:last-child {
+  margin-bottom: 0;
+}
+
+.person-card {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1rem;
+}
+
+.person-card img {
+  width: 140px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 20px;
+  background: var(--surface-alt);
+}
+
+.person-header p,
+.pub-authors,
+.resource-meta,
+.alumni-card p {
+  color: var(--muted);
+}
+
+.person-meta li {
+  margin-right: 0.5rem;
+}
+
+.publication-meta {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.text-link {
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+}
+
+.alumni-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(180px, 0.8fr) auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-panel {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+code {
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.4rem;
+  background: rgba(28, 27, 26, 0.06);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@media (max-width: 960px) {
+  .hero-grid,
+  .research-grid,
+  .people-grid,
+  .publication-list,
+  .resource-grid,
+  .alumni-card,
+  .contact-panel {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .split,
+  .nav {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .stats-card {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .shell {
+    width: min(100% - 1.2rem, 1180px);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .person-card,
+  .lead-card {
+    grid-template-columns: 1fr;
+  }
+
+  .person-card img,
+  .lead-card img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+  }
+
+  .stats-card {
+    grid-template-columns: 1fr;
+  }
+}

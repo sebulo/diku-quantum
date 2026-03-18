@@ -1,0 +1,75 @@
+- title: "TensorGRaD: Tensor Gradient Robust Decomposition for Memory-Efficient Neural Operator Training"
+  authors: Sebastian Loeschcke, David Pitt, Robert J. George, Jiawei Zhao, Cheng Luo, Yuandong Tian, Jean Kossaifi, Anima Anandkumar
+  year: 2025
+  type: Preprint
+  venue: arXiv preprint, 2025.
+  link: https://arxiv.org/abs/2501.02379
+  code: https://github.com/neuraloperator/tensorgrad
+  summary: >
+    TensorGRaD factorizes gradient tensors into complementary low-rank and
+    sparse components, reducing optimizer-state memory by up to 75% while
+    matching the accuracy of Adam, even on turbulent Navier-Stokes at Re = 10^5.
+
+- title: "Fast and Flexible Quantum-Inspired PDE Solvers with Data Integration"
+  authors: Lucas Arenstein, Martin Mikkelsen, Michael Kastoryano
+  year: 2025
+  type: Preprint
+  link: https://arxiv.org/pdf/2505.17046
+  summary: >
+    Quantum-inspired quantized tensor train methods for solving high-dimensional
+    PDEs with logarithmic memory scaling and data-driven extensions.
+
+- title: "Functional Matrix Product State Simulation of Continuous Variable Quantum Circuits"
+  authors: Andreas Bock Michelsen, Frederik K. Marqversen, Michael Kastoryano
+  year: 2025
+  type: Preprint
+  link: https://arxiv.org/pdf/2504.05860
+  summary: >
+    A functional matrix product state framework for simulating non-Gaussian
+    continuous-variable quantum circuits in real space.
+
+- title: "Variational Tensor Network Simulation of Gaussian Boson Sampling and Beyond"
+  authors: Jonas Vinther, Michael James Kastoryano
+  year: 2024
+  type: Preprint
+  link: https://arxiv.org/pdf/2410.18740
+  summary: >
+    Reformulates sampling problems as tensor-network variational tasks, enabling
+    classical simulation of Gaussian Boson Sampling and related models.
+
+- title: "LoQT: Low-Rank Adapters for Quantized Pre-Training"
+  authors: Sebastian Loeschcke, Mads Toftrup, Michael J. Kastoryano, Serge Belongie, Vesteinn Snaebjarnarson
+  year: 2024
+  type: Conference
+  venue: NeurIPS 2024. Equal contribution with Mads Toftrup. Best Paper Award at WANT@ICML.
+  link: https://arxiv.org/abs/2405.16528
+  code: https://github.com/sebulo/LoQT
+  extra_label: WANT@ICML
+  extra_link: https://icml.cc/virtual/2024/workshop/29972
+  summary: >
+    LoQT enables efficient quantized pre-training of LLMs with results close to
+    full-rank non-quantized models, including a 13B model on a 24GB GPU without
+    model parallelism, checkpointing, or offloading.
+
+- title: "Coarse-To-Fine Tensor Trains for Compact Visual Representations"
+  authors: Sebastian Loeschcke, Dan Wang, Christian Leth-Espensen, Serge Belongie, Michael J. Kastoryano, Sagie Benaim
+  year: 2024
+  type: Conference
+  venue: ICML 2024.
+  link: https://arxiv.org/abs/2406.04332
+  code: https://github.com/sebulo/PuTT
+  project: https://sebulo.github.io/PuTT_website/
+  summary: >
+    PuTT learns a coarse-to-fine tensor train representation of visual data for
+    2D and 3D fitting and novel view synthesis, even with noisy or incomplete
+    data.
+
+- title: "An Efficient and Exact Noncommutative Quantum Gibbs Sampler"
+  authors: Chi-Fang Chen, Michael J. Kastoryano, Andras Gilyen
+  year: 2023
+  type: Preprint
+  link: https://arxiv.org/pdf/2311.09207.pdf
+  summary: >
+    Presents an exactly detailed-balanced and efficiently implementable
+    Lindbladian approach to quantum Gibbs sampling for noncommutative
+    Hamiltonians.

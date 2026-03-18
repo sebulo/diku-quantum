@@ -1,0 +1,79 @@
+- name: Michael James Kastoryano
+  role: Associate Professor
+  email: mkastoryano@gmail.com
+  image: images/teampic/mjk_pic.jpg
+  summary: >
+    Works on quantum algorithms and tensor networks with applications in
+    physics, machine learning, finance, and engineering, with earlier work on
+    quantum Markov chain mixing and dissipative state preparation.
+  interests:
+    - Quantum algorithms
+    - Tensor networks
+    - Fault tolerance
+
+- name: Lasse Bjorn Kristensen
+  role: Postdoc
+  email: lakr@di.ku.dk
+  image: images/teampic/Lasse.png
+  summary: >
+    Works on theoretical and computational methods spanning physics, chemistry,
+    and tensor-network based modeling.
+  interests:
+    - Quantum simulation
+    - Many-body physics
+
+- name: Sebastian Bugge Loeschcke
+  role: PhD Student
+  email: sebastianloeschcke@gmail.com
+  website: https://sebulo.github.io/
+  image: images/teampic/SebastianLoeschcke.jpg
+  summary: >
+    Works on efficient training of deep learning models, focusing on low-rank methods and quantization. 
+  interests:
+    - Machine learning
+    - Low-rank methods
+
+- name: Jonas Vinther
+  role: PhD Student
+  email: jonas.vinther@di.ku.dk
+  image: images/teampic/JonasVinther.png
+  summary: >
+    Works on continuous-variable quantum computation and tensor-network
+    simulation methods.
+  interests:
+    - Continuous-variable QC
+    - Tensor networks
+
+- name: Lucas Silva Arenstein
+  role: PhD Student
+  email: lsa@di.ku.dk
+  image: images/teampic/lucas_photo.jpeg
+  summary: >
+    Focuses on quantum-inspired PDE solvers and high-dimensional numerical
+    methods built from tensor decompositions.
+  interests:
+    - PDE solvers
+    - Quantum-inspired algorithms
+
+- name: Martin Mikkelsen
+  role: PhD Student
+  email: martin.mikkelsen@di.ku.dk
+  website: https://martinmikkelsen.github.io/
+  image: images/teampic/MartinMikkelsen.jpeg
+  summary: >
+    Develops tensor-network methods for computational physics and scientific
+    machine learning.
+  interests:
+    - Scientific ML
+    - Tensor methods
+
+- name: Giacomo Fregona
+  role: PhD Student
+  email: gifr@di.ku.dk
+  image: images/teampic/bio-photo.jpg
+  summary: >
+    Works on theoretical aspects of quantum computation and related algorithmic
+    questions.
+  interests:
+    - Quantum theory
+    - Algorithms

@@ -1,0 +1,7 @@
+title: Michael Kastoryano Group
+description: Quantum algorithms and tensor networks at the University of Copenhagen
+url: https://sebulo.github.io
+baseurl: /diku-quantum
+theme: null
+markdown: kramdown
+plugins: []
