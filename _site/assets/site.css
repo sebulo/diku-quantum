@@ -177,8 +177,8 @@ p {
 }
 
 .button-secondary {
-  border: 1px solid rgba(13, 107, 107, 0.22);
-  background: rgba(13, 107, 107, 0.12);
+  border: 1px solid rgba(28, 27, 26, 0.14);
+  background: rgba(255, 253, 249, 0.92);
   color: var(--text);
 }
 
