@@ -1,9 +1,10 @@
-  - name: Project Name
-    maintainers: Person One, Person Two
-    summary: Short explanation of what the repository contains.
-    link: https://github.com/example/project
+  - name: TensorTrainNumerics.jl
+    maintainers: Martin Mikkelsen
+    summary: Julia pacakage for numerical computations with quantics tensor trains
+    link: https://github.com/MartinMikkelsen/TensorTrainNumerics.jl
     paper: https://arxiv.org/abs/...
-    demo: https://example.com
+    demo: https://martinmikkelsen.github.io/TensorTrainNumerics.jl/dev/
     topics:
       - Tensor networks
-      - Machine learning
+      - Quantics tensor trains
+      - Numerical linear algebra
